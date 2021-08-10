@@ -1,0 +1,252 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  color: #25202f;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto; /* выравнивание по середине */
+}
+
+.menu {
+  list-style-type: none;
+  text-decoration: none;
+}
+.menu-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* .menu-link:not(:last-child) {
+  margin-right: 20px;
+} */
+
+.navbar {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #25202f;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+.nav-menu {
+  margin-left: 100px;
+  flex-grow: 1;
+  max-width: 338px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.menu-button {
+  margin-left: 587px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 30px;
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.welcome-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-text {
+  line-height: 0.7em;
+  font-size: 24px;
+}
+
+.welcome-button {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 50px;
+  width: 200px;
+  height: 60px;
+  color: #fff;
+  background-color: #8643dc;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.welcome-name {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.welcome-avatar {
+  width: 535px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+
+.services-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-block {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.caption {
+  color: #8643dc;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.headline {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  max-width: 250px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+.services-logo {
+  margin-right: 20px;
+}
+
+.services-title {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.services-text {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 168px;
+}
+
+.portfolio-project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-headline {
+  margin-bottom: 0;
+}
+
+.portfolio-project-img {
+  filter: drop-shadow(0px 20px 50px rgba(220, 192, 255, 0.3));
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 540px;
+}
+
+.portfolio-button-explore {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration-line: underline;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+
+.clients-headline {
+  margin-bottom: 0;
+}
+
+.clients-block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.clients-block-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+}
+
+.clients-logo {
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.clients-logo-caption {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.slack {
+  background: #fff7fa;
+  border-color: #ffe7f0;
+  filter: drop-shadow(0px 10px 10px #ffe7f0);
+}
+
+.medium {
+  background: #edfff5;
+  border-color: #caffe1;
+  filter: drop-shadow(0px 10px 10px #caffe1);
+}
+
+.microsoft {
+  background: #f5fcff;
+  border-color: #ddf5ff;
+  filter: drop-shadow(0px 10px 10px #ddf5ff);
+}
+
+.zeplin {
+  background: #fffbf2;
+  border-color: #ffeec9;
+  filter: drop-shadow(0px 10px 10px #ffeec9);
+}
+
+.shopify {
+  background: #f4ffed;
+  border-color: #dbffc4;
+  filter: drop-shadow(0px 10px 10px #dbffc4);
+}
