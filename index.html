@@ -42,7 +42,7 @@
           <p class="welcome-name">Adam Zakob</p>
           a freelance UX Designer</span
         >
-        <button class="welcome-button">Let’s Talk</button>
+        <button class="button welcome-button">Let’s Talk</button>
       </div>
       <img src="img/avatar.jpg" alt="" class="welcome-avatar" />
     </div>
@@ -219,7 +219,8 @@
     </div>
 
     <div class="blog">
-      <div class="blog-wrapper">
+
+      <div class="blog-wrapper flexbox">
         <div class="caption">Blog</div>
         <svg
           width="50"
@@ -234,29 +235,81 @@
       </div>
 
       <div class="blog-block">
-        <div class="blog-block-item blog-block-promo">
-          <img src="img/blog_news_0.jpg" alt="" class="blog-img" />
+
+        <div class="blog-block-promo flexbox">
+          <img src="img/blog_news_0.jpg" />
           <span class="blog-data blog-data-promo">20 June/2020</span>
           <span class="blog-text blog-text-promo"
             >Technology is evolving rapidly. New devices and applications.</span
           >
         </div>
-        <div class="blog-block-item">
-          <img src="img/blog_news_1.jpg" alt="" class="blog-img" />
+
+        <div class="blog-block-item flexbox blog-block-item-1">
+        <div class="blog-text-wrapper flexbox">
           <span class="blog-data">20 June/2020</span>
+        
           <span class="blog-text"
             >New devices and applications come to the market.</span
           >
         </div>
-        <div class="blog-block-item">
-          <img src="img/blog_news_2.jpg" alt="" class="blog-img" />
-          <span class="blog-data">20 June/2020</span>
-          <span class="blog-text"
-            >Every day providing solutions to problems.</span
-          >
+        
         </div>
+
+        <div class="blog-block-item flexbox blog-block-item-2">
+          <div class="blog-text-wrapper flexbox"> 
+            <span class="blog-data">20 June/2020</span>
+          
+            <span class="blog-text"
+              >Every day providing solutions to problems.</span
+            ></div>
+        </div>
+
       </div>
     </div>
+
+   <div class="contact-me flexbox">
+    <div class="caption">Contact Me</div>
+  <svg
+    width="50"
+    height="2"
+    viewBox="0 0 50 2"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="50" height="2" fill="#8643DC" />
+  </svg>
+
+  <div class="contact-me-wrapper">
+    <div class="contact-me-headline">Let me know if you want to talk 
+      about a potential collaboration.
+      I'm available for freelance work.</div>
+      <a href="#" class="mail">
+        infoname@gmail.com
+      </a>
+  </div>
+  
+  
+  
+ 
+
+  <form action="#" method="POST">
+   
+      <input class="contact-me-form" type="text" required placeholder="What’s your name?">
+      <input class="contact-me-form" type="email"  required placeholder="Your email">
+      <input class="contact-me-form" type="text" required placeholder="Tell me about your project">
+ 
+  <div class="contact-me-buttons">
+  <button class="button contact-me-button" type="submit"> Get a Quote</button>
+  <div class="contact-me-icons">
+    <img class="contact-me-icon" src="img/contact_me_clip.svg" alt="">
+    <img class="contact-me-icon" src="img/contact_me_arrow.svg" alt="">
+  </div></div>
+</form>
+
+
+
+
+</div>
 
     <footer class="footer flexbox">
       <span class="footer-headline">Let’s be Friends</span>
@@ -265,7 +318,7 @@
           <img src="img/footer_logo_1.svg" alt="" class="footer-social-logo" />
         </a>
         <a href="#" class="footer-social-link">
-          <img src="img/footer_logo_2.svg" alt="" class="footer-social-logo" />
+          <img src="img/footer_logo_2.svg" alt="" class="footer-social-logo " />
         </a>
         <a href=#"" class="footer-social-link">
           <img src="img/footer_logo_3.svg" alt="" class="footer-social-logo" />
@@ -275,3 +328,4 @@
     </footer>
   </body>
 </html>
+ 
